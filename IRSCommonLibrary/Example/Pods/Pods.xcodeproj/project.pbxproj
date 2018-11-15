@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05123961251F1FFC0C20B9F9F195CD06 /* IRSCommonLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E31071CD4E60DB2BFCFEB5A6B7F2723 /* IRSCommonLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08A9D65592E0D617EE3F76BA0049EBF6 /* Pods-IRSCommonLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B0C1F0DC434B1809405711CB15B5A2 /* Pods-IRSCommonLibrary_Tests-dummy.m */; };
-		107BE3734ECEBF6BB5216E40435CC52D /* IRSTestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF37A3E98016FAA639217C94EB861F /* IRSTestUtil.swift */; };
-		1E498E33DE4714312FE46BFCB1A4A480 /* IRSCommonLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A18E21FFF940BFBCF70A9906266A14EE /* IRSCommonLibrary-dummy.m */; };
 		2369A21B6FCFDA8FE37882C6CEE0D335 /* Pods-IRSCommonLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D79E045C3226504B6571831F9B3D7E /* Pods-IRSCommonLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35BEA49B7D8726413B7273AA20A24E8A /* Pods-IRSCommonLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3A8D23C5BD97C259B666F326CAB32 /* Pods-IRSCommonLibrary_Example-dummy.m */; };
-		3CB6BC8E971E74D7C36BBDED933BEB1E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A88F3BCF9E92A204AF19960FF9875AB /* ReplaceMe.swift */; };
 		489C9C4590105E07838B4450BC757751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		90189B191206D389EBA86C9FA2D1D397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		4ED3DEDD2718509B892A79B51F901990 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2FFA19D835D776B3FCF09C71DA13D1 /* ColorExtensions.swift */; };
+		A0D0850C9620DD4E8664F85505F2BA95 /* IRSTestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CC5383E9C82F65C96E0DC2BDEC79F /* IRSTestUtil.swift */; };
+		AF5E30C65FBC6E72548DE7BE98B6B95D /* IRSCommonLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56BBFEFD01BB7A81D98D622C65E33C /* IRSCommonLibrary-dummy.m */; };
 		BC96C59D87C6A4C16D0E2A6AC586B362 /* Pods-IRSCommonLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB685D79A4DBC16BC4376CD7B6064DD /* Pods-IRSCommonLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0BCD115748CF721B793698513CDCFF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D212E218111A7C6D159FE228EA685286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F3EA3CD31DC31003D5390B045DD4A49E /* IRSCommonLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFBDBC434488A820D32B4B79A7FACB3 /* IRSCommonLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F60FF3EEC4443DA1A2EB799E44B14957 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F34BD71D4AD8735D05ED2A7FCAA339C /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,56 +33,57 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C5B444F129685EE2B2FE96F9CC36851;
+			remoteGlobalIDString = F200AB8CEB879153D988386277C7A806;
 			remoteInfo = IRSCommonLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07D79E045C3226504B6571831F9B3D7E /* Pods-IRSCommonLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IRSCommonLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A88F3BCF9E92A204AF19960FF9875AB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = IRSCommonLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0B7297AFDE4CDE91CB720B3BE16E2B71 /* Pods-IRSCommonLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IRSCommonLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F34BD71D4AD8735D05ED2A7FCAA339C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = IRSCommonLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		11AF00B12FFD0BAF330F2274D9F02CE3 /* Pods-IRSCommonLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IRSCommonLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		134C45460ACAC3659E4C2B1C5B88B098 /* Pods-IRSCommonLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IRSCommonLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		177B5633DF505D1CF25D2299C4FC0F12 /* IRSCommonLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRSCommonLibrary.xcconfig; sourceTree = "<group>"; };
 		1D91A7EB40C4C727B24547A3F1571261 /* Pods-IRSCommonLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IRSCommonLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
 		2EB685D79A4DBC16BC4376CD7B6064DD /* Pods-IRSCommonLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IRSCommonLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3591E0613B4AFB9DED02A92C8D8B67A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E31071CD4E60DB2BFCFEB5A6B7F2723 /* IRSCommonLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRSCommonLibrary-umbrella.h"; sourceTree = "<group>"; };
 		4DCF915AC227F4AB769098950FADF312 /* Pods_IRSCommonLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IRSCommonLibrary_Tests.framework; path = "Pods-IRSCommonLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D8D8640A2D2E6839DC36F2F8997CA8B /* IRSCommonLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRSCommonLibrary.modulemap; sourceTree = "<group>"; };
+		520A73ADF23C9887B474F536AD95977D /* IRSCommonLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = IRSCommonLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5CFBDBC434488A820D32B4B79A7FACB3 /* IRSCommonLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRSCommonLibrary-umbrella.h"; sourceTree = "<group>"; };
 		5E40CE19AA70FDBE407CDA7B579DAB91 /* IRSCommonLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRSCommonLibrary.framework; path = IRSCommonLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB81DADEF966D8CC50406C205DD7ED1 /* Pods-IRSCommonLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IRSCommonLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		68E4AEDD394DD37E10F80F6CCCE33E3D /* IRSCommonLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRSCommonLibrary-prefix.pch"; sourceTree = "<group>"; };
-		6907C45144A92B3654226B3EF23C50BD /* IRSCommonLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = IRSCommonLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		613CC5383E9C82F65C96E0DC2BDEC79F /* IRSTestUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRSTestUtil.swift; path = IRSCommonLibrary/Classes/IRSTestUtil.swift; sourceTree = "<group>"; };
 		69FEC38474931DF5CF684FAFA2F84997 /* Pods-IRSCommonLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IRSCommonLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		725C062E0F0CF8160A5B61FA66D54BF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E154D859AE32DA9909E855E4CD6E23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E24364D7AE3A99A78EEB3BD7E0DB58D /* IRSCommonLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRSCommonLibrary.xcconfig; sourceTree = "<group>"; };
 		7EE3A8D23C5BD97C259B666F326CAB32 /* Pods-IRSCommonLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IRSCommonLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		84FFEDDC812E35B00C7C1DB48890D4ED /* Pods-IRSCommonLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IRSCommonLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		902C82A59589E4AF66528C2A52C7E831 /* Pods-IRSCommonLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IRSCommonLibrary_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9CA3D7804C124EFCD3E4014F0B09C052 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9FAA82D4A6FCE2E662D75F33118A7229 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A18E21FFF940BFBCF70A9906266A14EE /* IRSCommonLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRSCommonLibrary-dummy.m"; sourceTree = "<group>"; };
 		AA81F013648A36771655941BCAADFCEA /* Pods-IRSCommonLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IRSCommonLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		ABF3CF0A22832ADDBAB8446660484881 /* IRSCommonLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRSCommonLibrary-prefix.pch"; sourceTree = "<group>"; };
 		B9440155D12B53A4342C9413C16FCE36 /* Pods-IRSCommonLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IRSCommonLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		BC34F5C74856000929C52B6DF335C176 /* Pods-IRSCommonLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IRSCommonLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C35733C5F621DE257F258DDC59613733 /* Pods_IRSCommonLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IRSCommonLibrary_Example.framework; path = "Pods-IRSCommonLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B0C1F0DC434B1809405711CB15B5A2 /* Pods-IRSCommonLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IRSCommonLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		CA56BBFEFD01BB7A81D98D622C65E33C /* IRSCommonLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRSCommonLibrary-dummy.m"; sourceTree = "<group>"; };
 		D0221C8B9F55C3A26AD26AA78294232A /* Pods-IRSCommonLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IRSCommonLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF9CE979C898E5E7508A08D1424EBA86 /* Pods-IRSCommonLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IRSCommonLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E08750F11833DADEFE95C375C91F351B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E7EF37A3E98016FAA639217C94EB861F /* IRSTestUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRSTestUtil.swift; path = IRSCommonLibrary/Classes/IRSTestUtil.swift; sourceTree = "<group>"; };
+		E99681FA551109F859B525659F1DB635 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EBF3EA90BC2181C29B5F6E006252B19E /* Pods-IRSCommonLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IRSCommonLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC2FFA19D835D776B3FCF09C71DA13D1 /* ColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtensions.swift; path = IRSCommonLibrary/Classes/ColorExtensions.swift; sourceTree = "<group>"; };
+		F570B433342FECA6503444819C15A859 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FCA2C8814F7F447566E4F8BA66D4E72D /* IRSCommonLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRSCommonLibrary.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A28108DEBC0EF05C103956E182818A5 /* Frameworks */ = {
+		48E6985DF2F7D43F9D5AFA3B03067BB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90189B191206D389EBA86C9FA2D1D397 /* Foundation.framework in Frameworks */,
+				D212E218111A7C6D159FE228EA685286 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,14 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E1EB5F207254B92A8E6C5EF78188547 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F987951FEFC8391F398D2FAAD006007D /* IRSCommonLibrary */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2E1EB5F207254B92A8E6C5EF78188547 /* Development Pods */,
+				FCA1A476BD82600A871509625F76B0A1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A36950C9B3277C1806636A0EB376B76B /* Products */,
 				D87DDF412192055A543F1CB8BE755ED3 /* Targets Support Files */,
@@ -147,6 +141,16 @@
 			);
 			name = "Pods-IRSCommonLibrary_Tests";
 			path = "Target Support Files/Pods-IRSCommonLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		8C5068B2E531EB63C69F3CA2ED6A98FF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				520A73ADF23C9887B474F536AD95977D /* IRSCommonLibrary.podspec */,
+				E99681FA551109F859B525659F1DB635 /* LICENSE */,
+				F570B433342FECA6503444819C15A859 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		919E31C27B07F86CF29B21D6837E4891 /* Pods-IRSCommonLibrary_Example */ = {
@@ -177,22 +181,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4B37A00256CDA1542A7C846E6E6FE71 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6907C45144A92B3654226B3EF23C50BD /* IRSCommonLibrary.podspec */,
-				9CA3D7804C124EFCD3E4014F0B09C052 /* LICENSE */,
-				E08750F11833DADEFE95C375C91F351B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFBB7CE680B8D5C8965C662D9782115F /* IRSCommonLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FFA19D835D776B3FCF09C71DA13D1 /* ColorExtensions.swift */,
+				613CC5383E9C82F65C96E0DC2BDEC79F /* IRSTestUtil.swift */,
+				0F34BD71D4AD8735D05ED2A7FCAA339C /* ReplaceMe.swift */,
+				8C5068B2E531EB63C69F3CA2ED6A98FF /* Pod */,
+				DABBF820EECE6E9011084732C294EE00 /* Support Files */,
+			);
+			name = IRSCommonLibrary;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D87DDF412192055A543F1CB8BE755ED3 /* Targets Support Files */ = {
@@ -204,30 +211,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E5951FF2565F2C6DE3E300130272A81C /* Support Files */ = {
+		DABBF820EECE6E9011084732C294EE00 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3591E0613B4AFB9DED02A92C8D8B67A1 /* Info.plist */,
-				5D8D8640A2D2E6839DC36F2F8997CA8B /* IRSCommonLibrary.modulemap */,
-				7E24364D7AE3A99A78EEB3BD7E0DB58D /* IRSCommonLibrary.xcconfig */,
-				A18E21FFF940BFBCF70A9906266A14EE /* IRSCommonLibrary-dummy.m */,
-				68E4AEDD394DD37E10F80F6CCCE33E3D /* IRSCommonLibrary-prefix.pch */,
-				3E31071CD4E60DB2BFCFEB5A6B7F2723 /* IRSCommonLibrary-umbrella.h */,
+				725C062E0F0CF8160A5B61FA66D54BF4 /* Info.plist */,
+				FCA2C8814F7F447566E4F8BA66D4E72D /* IRSCommonLibrary.modulemap */,
+				177B5633DF505D1CF25D2299C4FC0F12 /* IRSCommonLibrary.xcconfig */,
+				CA56BBFEFD01BB7A81D98D622C65E33C /* IRSCommonLibrary-dummy.m */,
+				ABF3CF0A22832ADDBAB8446660484881 /* IRSCommonLibrary-prefix.pch */,
+				5CFBDBC434488A820D32B4B79A7FACB3 /* IRSCommonLibrary-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/IRSCommonLibrary";
 			sourceTree = "<group>";
 		};
-		F987951FEFC8391F398D2FAAD006007D /* IRSCommonLibrary */ = {
+		FCA1A476BD82600A871509625F76B0A1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E7EF37A3E98016FAA639217C94EB861F /* IRSTestUtil.swift */,
-				0A88F3BCF9E92A204AF19960FF9875AB /* ReplaceMe.swift */,
-				A4B37A00256CDA1542A7C846E6E6FE71 /* Pod */,
-				E5951FF2565F2C6DE3E300130272A81C /* Support Files */,
+				BFBB7CE680B8D5C8965C662D9782115F /* IRSCommonLibrary */,
 			);
-			name = IRSCommonLibrary;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,14 +244,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6742837A57D8C65CBD657986CE776382 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05123961251F1FFC0C20B9F9F195CD06 /* IRSCommonLibrary-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		707C74D2311DED60804218600B997823 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,27 +252,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5F562BCA59F37983DF9051DDD9D493D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EA3CD31DC31003D5390B045DD4A49E /* IRSCommonLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3C5B444F129685EE2B2FE96F9CC36851 /* IRSCommonLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7766637870DAA7D2776E4A46735482A /* Build configuration list for PBXNativeTarget "IRSCommonLibrary" */;
-			buildPhases = (
-				6742837A57D8C65CBD657986CE776382 /* Headers */,
-				CB7F86775D2E052E4410133AFE6E9DE3 /* Sources */,
-				2A28108DEBC0EF05C103956E182818A5 /* Frameworks */,
-				027DF50229E2D397ECF004741DEC4F4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IRSCommonLibrary;
-			productName = IRSCommonLibrary;
-			productReference = 5E40CE19AA70FDBE407CDA7B579DAB91 /* IRSCommonLibrary.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5F3BB356B1CAC8818A662ABE2EEB3A49 /* Pods-IRSCommonLibrary_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0920DA120F845EA1518E5BC68FE5573C /* Build configuration list for PBXNativeTarget "Pods-IRSCommonLibrary_Tests" */;
@@ -316,6 +301,24 @@
 			productReference = C35733C5F621DE257F258DDC59613733 /* Pods_IRSCommonLibrary_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F200AB8CEB879153D988386277C7A806 /* IRSCommonLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22B1B0FCB462C93F131A928A4B04836 /* Build configuration list for PBXNativeTarget "IRSCommonLibrary" */;
+			buildPhases = (
+				A5F562BCA59F37983DF9051DDD9D493D /* Headers */,
+				F1E88DC0532FB069ADE4A99BE1147E20 /* Sources */,
+				48E6985DF2F7D43F9D5AFA3B03067BB4 /* Frameworks */,
+				B55FCA7E5D99A39F1446F49375C9BBB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRSCommonLibrary;
+			productName = IRSCommonLibrary;
+			productReference = 5E40CE19AA70FDBE407CDA7B579DAB91 /* IRSCommonLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -337,7 +340,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C5B444F129685EE2B2FE96F9CC36851 /* IRSCommonLibrary */,
+				F200AB8CEB879153D988386277C7A806 /* IRSCommonLibrary */,
 				CFB4E42992594129E2D23BD93B720DCC /* Pods-IRSCommonLibrary_Example */,
 				5F3BB356B1CAC8818A662ABE2EEB3A49 /* Pods-IRSCommonLibrary_Tests */,
 			);
@@ -345,14 +348,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		027DF50229E2D397ECF004741DEC4F4E /* Resources */ = {
+		1D2E8FBF7D2D886854F2D2E0FB1EBF05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D2E8FBF7D2D886854F2D2E0FB1EBF05 /* Resources */ = {
+		B55FCA7E5D99A39F1446F49375C9BBB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,13 +388,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB7F86775D2E052E4410133AFE6E9DE3 /* Sources */ = {
+		F1E88DC0532FB069ADE4A99BE1147E20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E498E33DE4714312FE46BFCB1A4A480 /* IRSCommonLibrary-dummy.m in Sources */,
-				107BE3734ECEBF6BB5216E40435CC52D /* IRSTestUtil.swift in Sources */,
-				3CB6BC8E971E74D7C36BBDED933BEB1E /* ReplaceMe.swift in Sources */,
+				4ED3DEDD2718509B892A79B51F901990 /* ColorExtensions.swift in Sources */,
+				AF5E30C65FBC6E72548DE7BE98B6B95D /* IRSCommonLibrary-dummy.m in Sources */,
+				A0D0850C9620DD4E8664F85505F2BA95 /* IRSTestUtil.swift in Sources */,
+				F60FF3EEC4443DA1A2EB799E44B14957 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +405,7 @@
 		F752ACE4BFA4A8D665FB2753C9F8F94F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IRSCommonLibrary;
-			target = 3C5B444F129685EE2B2FE96F9CC36851 /* IRSCommonLibrary */;
+			target = F200AB8CEB879153D988386277C7A806 /* IRSCommonLibrary */;
 			targetProxy = 8EABE925C08DAF2D8FA6A56E529DD4DE /* PBXContainerItemProxy */;
 		};
 		FE957A8F0A889D5C3BF27EE2418961F1 /* PBXTargetDependency */ = {
@@ -413,39 +417,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		254B342D77AFE54F6B5F3AC2B02395CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E24364D7AE3A99A78EEB3BD7E0DB58D /* IRSCommonLibrary.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IRSCommonLibrary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary.modulemap";
-				PRODUCT_MODULE_NAME = IRSCommonLibrary;
-				PRODUCT_NAME = IRSCommonLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3DC16BA5297F29CEFC4B82C8228655BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC34F5C74856000929C52B6DF335C176 /* Pods-IRSCommonLibrary_Example.release.xcconfig */;
@@ -474,6 +445,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C1DF86461D1326D913E8E04F5382BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177B5633DF505D1CF25D2299C4FC0F12 /* IRSCommonLibrary.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRSCommonLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary.modulemap";
+				PRODUCT_MODULE_NAME = IRSCommonLibrary;
+				PRODUCT_NAME = IRSCommonLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -650,6 +654,38 @@
 			};
 			name = Release;
 		};
+		C2BEFB155788342094C276C03A467057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177B5633DF505D1CF25D2299C4FC0F12 /* IRSCommonLibrary.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRSCommonLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary.modulemap";
+				PRODUCT_MODULE_NAME = IRSCommonLibrary;
+				PRODUCT_NAME = IRSCommonLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -712,38 +748,6 @@
 			};
 			name = Release;
 		};
-		D962C81F272CA2CCBEB4815864704892 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E24364D7AE3A99A78EEB3BD7E0DB58D /* IRSCommonLibrary.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IRSCommonLibrary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IRSCommonLibrary/IRSCommonLibrary.modulemap";
-				PRODUCT_MODULE_NAME = IRSCommonLibrary;
-				PRODUCT_NAME = IRSCommonLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -774,11 +778,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7766637870DAA7D2776E4A46735482A /* Build configuration list for PBXNativeTarget "IRSCommonLibrary" */ = {
+		B22B1B0FCB462C93F131A928A4B04836 /* Build configuration list for PBXNativeTarget "IRSCommonLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D962C81F272CA2CCBEB4815864704892 /* Debug */,
-				254B342D77AFE54F6B5F3AC2B02395CA /* Release */,
+				C2BEFB155788342094C276C03A467057 /* Debug */,
+				7C1DF86461D1326D913E8E04F5382BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

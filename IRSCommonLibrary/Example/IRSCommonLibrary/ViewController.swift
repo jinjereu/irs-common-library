@@ -18,6 +18,9 @@ class ViewController: UIViewController {
 		
 		IRSTestUtil.test()
 		
+		let red: UIColor = .red
+		let _ = red.brighten(0.5)
+		
     }
 
     override func didReceiveMemoryWarning() {
