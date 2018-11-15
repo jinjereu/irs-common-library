@@ -1,22 +1,23 @@
 {
   "name": "IRSCommonLibrary",
   "version": "0.1.0",
-  "summary": "A short description of IRSCommonLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jinjereu/IRSCommonLibrary",
+  "summary": "A bunch of commonly used extensions and utilities",
+  "swift_version": "4.2",
+  "description": "A bunch of commonly used extensions and utilities for iOS Swift Project",
+  "homepage": "https://github.com/jinjereu/irs-common-library.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "jinjereu": "ingrid.silapan@sushmobile.com"
+    "jinjereu": "ingridsilapan@gmail.com"
   },
   "source": {
-    "git": "https://github.com/jinjereu/IRSCommonLibrary.git",
+    "git": "https://github.com/jinjereu/irs-common-library.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "IRSCommonLibrary/Classes/**/*"
 }
