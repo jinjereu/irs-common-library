@@ -1,0 +1,6 @@
+framework module IRSCommonLibrary {
+  umbrella header "IRSCommonLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

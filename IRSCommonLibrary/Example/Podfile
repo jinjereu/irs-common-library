@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IRSCommonLibrary_Example' do
+  pod 'IRSCommonLibrary', :path => '../'
+
+  target 'IRSCommonLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

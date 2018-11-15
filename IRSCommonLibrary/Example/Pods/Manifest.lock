@@ -1,0 +1,16 @@
+PODS:
+  - IRSCommonLibrary (0.1.0)
+
+DEPENDENCIES:
+  - IRSCommonLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  IRSCommonLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IRSCommonLibrary: cbe1cd310c15a5a90d023528eaee47b6ddc49296
+
+PODFILE CHECKSUM: 3299771cb86716d46d647738861e5e3589489b61
+
+COCOAPODS: 1.5.3
